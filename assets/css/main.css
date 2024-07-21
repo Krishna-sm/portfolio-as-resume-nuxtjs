@@ -1,0 +1,26 @@
+@import url('./font.css');
+@import url('./color.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    /* color: var(--color3); */
+    color: black;
+    font-family: PoppinsRegular;
+}
+
+html::selection{
+    @apply !bg-blue-500 !text-white;
+}
+
+
+html::-webkit-scrollbar{
+    @apply w-2 bg-gray-900 ;
+}
+
+
+html::-webkit-scrollbar-thumb{
+    @apply bg-teal-500 ;
+}

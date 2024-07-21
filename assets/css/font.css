@@ -1,0 +1,23 @@
+
+:root{
+    --font-size-100: 0.9375rem;
+    --font-size-200: 1.125rem;
+    --font-size-300: 1.5rem;
+    --font-size-400: 1.6875rem;
+    --font-size-500: 2.25rem;
+    --font-size-600: 3rem;
+  }
+  @font-face {
+      font-family: PoppinsBlack;
+      src: url(../fonts/Poppins-Black.ttf);
+    }
+  
+    @font-face {
+      font-family: PoppinsRegular;
+      src: url(../fonts/Poppins-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: PoppinsSemiBold;
+        src: url(../fonts/Poppins-SemiBold.ttf);
+      }
