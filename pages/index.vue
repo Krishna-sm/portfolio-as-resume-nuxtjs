@@ -34,7 +34,7 @@
           <button @click="index=3" :class="index===3? 'bg-black  text-white rounded-sm':'border border-black'" class="px-4 py-2 text-sm md:text-base">Contact</button>
         </li>
         <li>
-          <button :class="false? 'bg-black  text-white rounded-sm':'border border-black'" class="px-4 py-2 text-sm md:text-base">Resume</button>
+          <button  @click="downloadResumeFile" :class="false? 'bg-black  text-white rounded-sm':'border border-black'" class="px-4 py-2 text-sm md:text-base">Resume</button>
         </li>
       </ul>
     </div>
@@ -68,10 +68,14 @@ import Skills from "../components/ResumeComponents/Skills.vue";
 import Projects from "../components/ResumeComponents/Projects.vue";
 import Contact from "../components/ResumeComponents/Contact.vue";
 import { useIndex } from "~/store/ButtonIndex";
+import { downloadResumeFile } from "~/apis/Resume";
+
+
 
 useHead({
   title: "🧋 Krishna Portfolio",
 });
+
 
 
                 // let index = ref(0);

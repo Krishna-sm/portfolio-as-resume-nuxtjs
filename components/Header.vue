@@ -23,7 +23,7 @@
                             <li>
                                         <!-- <NuxtLink href=""></NuxtLink> -->
 
-                                                <button type="button" class="text-white transition-all duration-300 hover:bg-white  border hover:text-black px-4 py-2 rounded-sm">Resume</button>
+                                                <button @click="downloadResumeFile" type="button" class="text-white transition-all duration-300 hover:bg-white  border hover:text-black px-4 py-2 rounded-sm">Resume</button>
                             </li>
 
                         
@@ -35,6 +35,7 @@
 </template>
 
 <script setup>
+import { downloadResumeFile } from '~/apis/Resume';
 import { useIndex } from '~/store/ButtonIndex';
 
 // import { mapMutations } from 'vuex'

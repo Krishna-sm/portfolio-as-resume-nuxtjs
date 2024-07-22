@@ -48,16 +48,25 @@
 
         <div class=" w-[90%] md:w-[50%] mx-auto flex justify-between my-5 bg-white  rounded-md shadow-sm items-center flex-col py-6 gap-y-2 px-4" >
 
+                <UTooltip  class="w-full" text="github/krishna-sm"   :popper="{ arrow: true,placement: 'top'  }">
                 <button class="py-3  w-full inline-flex items-center justify-center gap-x-3 bg-gray-900 rounded-lg text-white outline-none border-none">
                                         <Icon name="uil:github" class="text-4xl" /> <span>Github</span>
+
+                                        
                                 </button>
-                                
+                        </UTooltip>
+                        <UTooltip  class="w-full" text="codewithkrishna_____"   :popper="{ arrow: true,placement: 'top'  }">
                                 <button class="py-3  w-full inline-flex items-center justify-center gap-x-3 bg-gray-900 rounded-lg text-white outline-none border-none">
                                         <Icon name="uil:instagram" class="text-4xl" /> <span>Instagram</span>
                                 </button>
+                                </UTooltip>
+                              
+                              
+                                <UTooltip  class="w-full" text="krishna1806"   :popper="{ arrow: true,placement: 'top'  }">
                                 <button class="py-3  w-full inline-flex items-center justify-center gap-x-3 bg-gray-900 rounded-lg text-white outline-none border-none">
                                         <Icon name="uil:linkedin" class="text-4xl" /> <span>Linkedin</span>
                                 </button>
+                                </UTooltip>     
                 <!-- <button class="p-2 flex items-center justify-center bg-black text-white rounded-full hover:text-black hover:bg-white hover:border hover:border-black transition-all duration-300">
                     <Icon name="uil:github" class="text-4xl" />
                 </button>
